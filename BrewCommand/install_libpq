@@ -1,0 +1,4 @@
+brew install libpq
+echo 'export PATH="/usr/local/opt/libpq/bin:$PATH"' >> ~/.zshrc
+ln -s /usr/local/Cellar/libpq/10.3/bin/psql /usr/local/bin/psql
+brew link --force libpq
